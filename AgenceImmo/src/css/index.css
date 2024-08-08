@@ -1,0 +1,240 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header div h1 {
+    font-family: "Long Cang", cursive;
+}
+
+
+
+/* 1st section */
+
+.section1 {
+    background-image: url(/src/img/frame.jpg);
+}
+
+
+.section1 div p {
+    font-size: 1.5rem;
+}
+
+
+/* 2nd section */
+
+.section2 {
+    padding: 10rem 0;
+    background-color: #eeeeee;
+}
+
+.section2 h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 3rem;
+}
+
+.DivContainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section2 .DivContainer1 div {
+    width: 30%;
+}
+
+.section2 .DivContainer1 img {
+    width: 100%;
+}
+
+.section2 .DivContainer1 div div {
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    padding: 1rem 0;
+}
+
+.section2 .DivContainer1 div hr {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.section2 .DivContainer1 div p {
+    padding: 0.5rem;
+}
+
+
+/* 3rd section */
+
+.section3 {
+    display: flex;
+    background-color: #333;
+    flex-direction: row;
+    min-height: 37.5rem;
+}
+
+.section3 .team {
+    flex: 1;
+    background: url(../img/team.jpg) center/cover;
+}
+
+.section3 .teamText {
+    flex: 1;
+    padding: 10rem 5rem;
+    color: white;
+}
+
+.teamText h3 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.teamText p {
+    font-size: 1.5rem;
+}
+
+
+/* section 4 */
+
+.section4 {
+    padding: 10rem 0;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 3rem;
+    align-self: flex-start;
+}
+
+.coms1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.coms1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 0 3rem;
+}
+
+.coms2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.coms2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 0 3rem;
+}
+
+.section4 div {
+    min-height: 10rem;
+}
+
+.section4 .coms1 div img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.section4 .coms2 div img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+
+/* section 5 */
+
+.section5 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 13rem 0;
+}
+
+.section5 div {
+    width: 50%;
+}
+
+.section5 h3 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.section5 form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section5 div form button {
+    align-self: center;
+    margin-top: 4rem;
+    background: goldenrod;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 4rem;
+    padding: 1.5rem 2rem;
+}
+
+.section5 div form button:hover {
+    background-color: #333;
+    color: goldenrod;
+    border: none;
+}
+
+.section5 form input {
+    display: block;
+    background-color: #333;
+    padding: 2rem;
+    color: white;
+    border: none;
+    border-bottom: lightgray solid;
+    opacity: 0.4;
+}
+
+.section5 form input::placeholder {
+    color: #eeeeee;
+    font-size: 1.3rem;
+    opacity: 0.4;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
